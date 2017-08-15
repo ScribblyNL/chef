@@ -21,7 +21,7 @@ echo spath $PATH
 echo
 BIOLIMIT=2000
 BACKUPDIR=`date +%A`
-BTARGET=192.168.178.13
+BTARGET=192.168.178.12
 BEXCLUDES='--exclude=/proc/ --exclude=/var/cache/ --exclude=/sys/ --exclude=/tmp/ --exclude=/var/lock/*.pid 
 	--exclude=/etc/selinux/targeted/ --exclude=/backups/ --exclude=/var/lib/mlocate/ 
 	--exclude=/var/lib/yum/history/ --exclude=/var/lib/yum/yumdb/ --exclude=/var/spool/squid3/ --exclude=/media/ --exclude=/home/osmc/.kodi/userdata/Thumbnails/ --exclude=home/osmc/.kodi/temp/*'
