@@ -4,13 +4,24 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
+package 'dnsutils' do
+ action :install
+end
 
 package 'htop' do
   action :install
 end
 
+package 'clamav' do
+  action :install
+end
+
 package 'w3m' do
   action :install
+end
+
+package 'lynx' do
+ action :install
 end
 
 package 'nano' do
